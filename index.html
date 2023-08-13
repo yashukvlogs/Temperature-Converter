@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Temperature Converter</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mainbox">
+    <div class="converter">
+      <p class="heading"><strong>Temperature Converter</strong></p>
+      <p class="subheading">Temperature in celsius :</p>
+      <input type="text" placeholder="enter temperature" id="input">
+      
+      <br>
+      
+      <button type="submit" onclick="getValue()" class="btn">Convert</button>
+      
+      <p class="subheading">Temperature in Fahrenheit :</p>
+      <p id="result">wait for result...</p>
+      
+    </div>
+  </div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
